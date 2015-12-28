@@ -1,0 +1,15 @@
+<html>
+<head>
+	<title>Students of {{name}}</title>
+</head>
+<body>
+<h1>Students of {{name}}</h1>
+
+{% for i in list %}
+<ul>
+	<li>{{ i.firstName }} {{i.lastName}}</li>
+</ul>
+{%endfor%}
+
+</body>
+</html>
